@@ -1,1 +1,1 @@
-Shell,i/o redirections
+A script that creates alias
