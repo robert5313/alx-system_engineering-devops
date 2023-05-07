@@ -2,4 +2,4 @@
 # Debugging made short
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
-netstat -tlnp | grep 80
+service nginx status | grep 80 "nginx is not running"
