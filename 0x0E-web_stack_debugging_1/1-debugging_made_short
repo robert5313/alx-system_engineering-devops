@@ -2,5 +2,4 @@
 # Debugging made short
 ln -sf /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 service nginx start
-echo "\ndaemon off;" >> /etc/nginx/nginx.conf
-chown -R www-data:www-data /var/lib/nginx
+netstat -tlnp | grep 80
